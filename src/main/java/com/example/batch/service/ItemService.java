@@ -41,7 +41,7 @@ public class ItemService {
     	//Path path = Paths.get("src/main/resources/tmp/tsv/result0.tsv");
     	
     	//utf-8に変換 パス指定
-    	BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/resources/tmp/tsv/test2.tsv"),"utf-8"));;
+    	BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream("src/main/resources/tmp/tsv/test-junit.tsv"),"utf-8"));;
 
     	//うまく読み込めないので↑のやり方に変更
 //		try {
